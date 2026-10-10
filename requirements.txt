@@ -1,0 +1,24 @@
+# ============ UI ============
+PySide6>=6.6
+
+# ============ Video download ============
+yt-dlp>=2024.8.6
+
+# ============ Speech recognition (local, free, offline) ============
+# FunASR + ModelScope: downloads the SenseVoice model automatically.
+funasr>=1.1.0
+modelscope>=1.15.0
+# Feature backend: FunASR needs either torchaudio or kaldi-native-fbank.
+# kaldi-native-fbank avoids matching versions with torch (recommended).
+# If you switch to torchaudio, it must match your installed torch major version.
+kaldi-native-fbank>=1.20
+soundfile>=0.12
+
+# ============ LLM formatting (DeepSeek, via the OpenAI-compatible API) ============
+openai>=1.40
+
+# ============ Images: frame capture from the video ============
+opencv-python>=4.8
+
+# ============ Config read/write ============
+PyYAML>=6.0

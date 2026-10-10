@@ -1,0 +1,38 @@
+{
+  "ui_language": "en",
+  "deepseek_api_key": "",
+  "deepseek_base_url": "https://api.deepseek.com",
+  "deepseek_model": "deepseek-chat",
+  "deepseek_vision_model": "deepseek-flash",
+  "use_llm": true,
+  "summary_mode": "note",
+  "use_images": true,
+  "use_vision": true,
+  "max_images": 4,
+  "download_cover": true,
+  "output_dir": "",
+  "output_language": "en",
+  "article_length": 4,
+  "keep_video": false,
+  "include_transcript": false,
+  "cookies_browser": "edge",
+  "cookies_raw": "",
+  "cookies_file": "",
+  "ffmpeg_path": "",
+  "asr_model": "iic/SenseVoiceSmall",
+  "asr_device": "cpu",
+  "asr_language": "auto",
+  "enabled_sources": ["douyin", "tiktok", "bilibili", "youtube", "ted"],
+  "api_providers": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "base_url": "https://api.deepseek.com",
+      "api_key": "",
+      "model": "deepseek-chat",
+      "vision": true,
+      "vision_model": "deepseek-flash",
+      "enabled": true
+    }
+  ]
+}

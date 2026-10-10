@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# Local config holds your API keys and login cookies (as sensitive as a
+# password) — never commit it. Copy config.example.json to config.json instead.
+# ---------------------------------------------------------------------------
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Generated results & caches
+output/
+.last_run_cache/
+*.wav
+*.mp4
+*.part
+*.ytdl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
